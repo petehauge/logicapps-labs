@@ -55,8 +55,8 @@ $ErrorActionPreference = "Stop"
 # ============================================================================
 
 # Hardcoded upstream repository for URL generation
-$upstreamRepo = "Azure/logicapps-labs"
-$upstreamBranch = "main"
+$upstreamRepo = "petehauge/logicapps-labs"
+$upstreamBranch = "combined-samples-test"
 
 # ============================================================================
 # HELPER FUNCTIONS
