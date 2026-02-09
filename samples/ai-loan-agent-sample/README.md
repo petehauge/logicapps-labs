@@ -14,8 +14,7 @@ An AI-powered loan approval system that automates the evaluation of vehicle loan
 
 **Deploy to your Azure subscription:**
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Flogicapps-labs%2Fmain%2Fsamples%2Fai-loan-agent-sample%2FDeployment%2Fsample-arm.json)
-
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpetehauge%2Flogicapps-labs%2Frebundle-samples%2Fsamples%2Fai-loan-agent-sample%2FDeployment%2Fsample-arm.json)
 <details>
 <summary><b>What happens when you deploy</b></summary>
 
