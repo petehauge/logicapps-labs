@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.39.26.7824",
-      "templateHash": "8527612901626069477"
+      "templateHash": "11293623122665932398"
     }
   },
   "parameters": {
@@ -20,7 +20,7 @@
   },
   "variables": {
     "uniqueSuffix": "[uniqueString(resourceGroup().id)]",
-    "workflowsZipUrl": "https://raw.githubusercontent.com/modularity/logicapps-labs/transaction-repair-agent/samples/transaction-repair-agent/Deployment/workflows.zip"
+    "workflowsZipUrl": "https://raw.githubusercontent.com/Azure/logicapps-labs/main/samples/ai-loan-agent-sample/Deployment/workflows.zip"
   },
   "resources": [
     {
