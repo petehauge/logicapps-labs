@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.39.26.7824",
-      "templateHash": "709823002583475752"
+      "templateHash": "7447557492664131241"
     }
   },
   "parameters": {
@@ -20,7 +20,7 @@
   },
   "variables": {
     "uniqueSuffix": "[uniqueString(resourceGroup().id)]",
-    "workflowsZipUrl": "https://raw.githubusercontent.com/modularity/logicapps-labs/product-return-sample/samples/product-return-agent-sample/Deployment/workflows.zip"
+    "workflowsZipUrl": "https://raw.githubusercontent.com/Azure/logicapps-labs/main/samples/product-return-agent-sample/Deployment/workflows.zip"
   },
   "resources": [
     {
@@ -137,7 +137,7 @@
             "_generator": {
               "name": "bicep",
               "version": "0.39.26.7824",
-              "templateHash": "13614099819857197378"
+              "templateHash": "5965237802333093254"
             }
           },
           "parameters": {
@@ -172,7 +172,7 @@
             {
               "type": "Microsoft.CognitiveServices/accounts/deployments",
               "apiVersion": "2024-10-01",
-              "name": "[format('{0}/{1}', parameters('openAIName'), 'gpt-4o-mini')]",
+              "name": "[format('{0}/{1}', parameters('openAIName'), 'gpt-5-mini')]",
               "sku": {
                 "name": "GlobalStandard",
                 "capacity": 50
@@ -180,7 +180,7 @@
               "properties": {
                 "model": {
                   "format": "OpenAI",
-                  "name": "gpt-4o-mini",
+                  "name": "gpt-5-mini",
                   "version": "2024-07-18"
                 }
               },
