@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.39.26.7824",
-      "templateHash": "14961039433082959686"
+      "templateHash": "17056669564905987670"
     }
   },
   "parameters": {
@@ -137,7 +137,7 @@
             "_generator": {
               "name": "bicep",
               "version": "0.39.26.7824",
-              "templateHash": "5965237802333093254"
+              "templateHash": "6448475993981052673"
             }
           },
           "parameters": {
@@ -181,7 +181,7 @@
                 "model": {
                   "format": "OpenAI",
                   "name": "gpt-5-mini",
-                  "version": "2024-07-18"
+                  "version": "2025-08-07"
                 }
               },
               "dependsOn": [

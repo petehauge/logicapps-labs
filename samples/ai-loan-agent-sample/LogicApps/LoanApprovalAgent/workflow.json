@@ -22,7 +22,7 @@
               "deploymentModelProperties": {
                 "name": "gpt-5-mini",
                 "format": "OpenAI",
-                "version": "2024-07-18"
+                "version": "2025-08-07"
               }
             }
           },
